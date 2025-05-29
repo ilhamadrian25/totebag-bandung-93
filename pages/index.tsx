@@ -31,19 +31,19 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
     },
     {
       imageUrl: "/catalog-02.jpg",
-      title: "Lorem ipsum dolor sit.",
-      overTitle: "lorem ipsum",
+      title: "Tote Bag Merdeka Belajar - Simpel, Kuat, Fungsional.",
+      overTitle: "",
       reversed: true,
       content: (
         <>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{" "}
-            <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+            Tote bag eksklusif bertema Merdeka Belajar dari BGP ini hadir dengan desain minimalis namun kuat untuk aktivitas harianmu. 
+            Cocok untuk mahasiswa, guru, dan siapa pun yang mendukung semangat pendidikan di Indonesia.
           </p>
           <ul>
-            <li>Professional point 1</li>
-            <li>Professional remark 2</li>
-            <li>Professional feature 3</li>
+            <li>Bahan canvas tebal anti sobek</li>
+            <li>Muat laptop, buku, dan alat tulis</li>
+            <li>Nyaman dibawa dan tahan lama</li>
           </ul>
         </>
       ),
