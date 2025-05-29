@@ -16,7 +16,7 @@ import Testimonials from 'views/HomePage/Testimonials';
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   const sections = [
     {
-      imageUrl: "/catalog-1.jpg",
+      imageUrl: "/catalog-01.jpg",
       title: "Lorem ipsum dolor sit amet consectetur.",
       overTitle: "sit amet gogo",
       content: (
@@ -30,7 +30,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       ),
     },
     {
-      imageUrl: "/catalog-2.jpg",
+      imageUrl: "/catalog-02.jpg",
       title: "Lorem ipsum dolor sit.",
       overTitle: "lorem ipsum",
       reversed: true,
