@@ -11,6 +11,7 @@ module.exports = withBundleAnalyzer({
     domains: ['github.blog'],
     deviceSizes: [320, 640, 1080, 1200],
     imageSizes: [64, 128],
+    unoptimized: true,
   },
   swcMinify: true,
   compiler: {
