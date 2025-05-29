@@ -7,7 +7,7 @@ export default function PricingPage() {
   return (
     <Page title="Pricing" description="Cupidatat et reprehenderit ullamco aute ullamco anim tempor.">
       <Wrapper>
-        <PricingTablesSection />
+        {/* <PricingTablesSection /> */}
         <FaqSection />
       </Wrapper>
     </Page>

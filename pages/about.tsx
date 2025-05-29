@@ -6,15 +6,73 @@ import SectionTitle from 'components/SectionTitle';
 import YoutubeVideo from 'components/YoutubeVideo';
 import { media } from 'utils/media';
 import FaqSection from 'views/PricingPage/FaqSection';
+import RichText from 'components/MDXRichText';
+
+const FEATURES = [
+  {
+    imageUrl: '/grid-icons/asset-1.svg',
+    title: 'Lorem ipsum dolor sit amet.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+  },
+  {
+    imageUrl: '/grid-icons/asset-2.svg',
+    title: 'Lorem ipsum dolor sit amet.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+  },
+  {
+    imageUrl: '/grid-icons/asset-3.svg',
+    title: 'Lorem ipsum dolor sit amet.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+  },
+  {
+    imageUrl: '/grid-icons/asset-4.svg',
+    title: 'Lorem ipsum dolor sit amet.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+  },
+  {
+    imageUrl: '/grid-icons/asset-5.svg',
+    title: 'Lorem ipsum dolor sit amet.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+  },
+  {
+    imageUrl: '/grid-icons/asset-6.svg',
+    title: 'Lorem ipsum dolor sit amet.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+  },
+  {
+    imageUrl: '/grid-icons/asset-7.svg',
+    title: 'Lorem ipsum dolor sit amet.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+  },
+  {
+    imageUrl: '/grid-icons/asset-8.svg',
+    title: 'Lorem ipsum dolor sit amet.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+  },
+  {
+    imageUrl: '/grid-icons/asset-9.svg',
+    title: 'Lorem ipsum dolor sit amet.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+  },
+];
 
 export default function FeaturesPage() {
   return (
     <Page title="Tentang" description="">
       <Wrapper>
-        <SectionTitle>Totebag Bandung 93</SectionTitle>
-        <span>
+        <SectionTitle>Check out this quick introduction</SectionTitle>
+        <p>
           Totebag Bandung 93 adalah brand lokal yang mengusung konsep tote bag berkualitas tinggi dengan desain kekinian dan fungsional. Kami berdiri dengan misi menyediakan tas yang stylish, ramah lingkungan, dan tahan lama untuk mendukung gaya hidup aktif dan sadar lingkungan masyarakat modern. Setiap produk Totebag Bandung 93 dibuat dari bahan pilihan seperti kanvas dan katun yang kuat serta ramah lingkungan. Kami percaya bahwa fashion tidak hanya soal penampilan, tapi juga keberlanjutan. Oleh karena itu, kami mengedepankan proses produksi yang bertanggung jawab dan ramah alam. Berlokasi di kota Bandung, kami menggabungkan sentuhan seni lokal dengan tren desain global untuk menghadirkan tote bag yang unik dan personal. Totebag Bandung 93 cocok untuk kamu yang ingin tampil gaya sambil berkontribusi pada pelestarian lingkungan.
-        </span>
+        </p>
         {/* <YoutubeVideo url="https://www.youtube.com/watch?v=BggrpKfqh1c" />
         <CustomAutofitGrid>
           {FEATURES.map((singleFeature, idx) => (
