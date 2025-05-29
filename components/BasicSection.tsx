@@ -17,7 +17,7 @@ export default function BasicSection({ imageUrl, title, overTitle, reversed, chi
   return (
     <BasicSectionWrapper reversed={reversed}>
       <ImageContainer>
-        <img src={imageUrl} alt={title} style={{ objectFit: 'cover', width: '100%', height: '100%', position: 'absolute' }} />
+        <img src={imageUrl} alt={title} style={{ objectFit: 'cover' }} />
       </ImageContainer>
       <ContentContainer>
         <CustomOverTitle>{overTitle}</CustomOverTitle>
