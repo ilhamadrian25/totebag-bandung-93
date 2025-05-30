@@ -7,6 +7,7 @@ import YoutubeVideo from 'components/YoutubeVideo';
 import { media } from 'utils/media';
 import FaqSection from 'views/PricingPage/FaqSection';
 import RichText from 'components/MDXRichText';
+import { Description } from 'views/HomePage/Hero';
 
 const FEATURES = [
   {
@@ -69,10 +70,10 @@ export default function FeaturesPage() {
   return (
     <Page title="Tentang" description="">
       <Wrapper>
-        <SectionTitle>Check out this quick introduction</SectionTitle>
-        <p>
+        <SectionTitle>Informasi tentang Totebag Bandung 93</SectionTitle>
+        <Description>
           Totebag Bandung 93 adalah brand lokal yang mengusung konsep tote bag berkualitas tinggi dengan desain kekinian dan fungsional. Kami berdiri dengan misi menyediakan tas yang stylish, ramah lingkungan, dan tahan lama untuk mendukung gaya hidup aktif dan sadar lingkungan masyarakat modern. Setiap produk Totebag Bandung 93 dibuat dari bahan pilihan seperti kanvas dan katun yang kuat serta ramah lingkungan. Kami percaya bahwa fashion tidak hanya soal penampilan, tapi juga keberlanjutan. Oleh karena itu, kami mengedepankan proses produksi yang bertanggung jawab dan ramah alam. Berlokasi di kota Bandung, kami menggabungkan sentuhan seni lokal dengan tren desain global untuk menghadirkan tote bag yang unik dan personal. Totebag Bandung 93 cocok untuk kamu yang ingin tampil gaya sambil berkontribusi pada pelestarian lingkungan.
-        </p>
+        </Description>
         {/* <YoutubeVideo url="https://www.youtube.com/watch?v=BggrpKfqh1c" />
         <CustomAutofitGrid>
           {FEATURES.map((singleFeature, idx) => (

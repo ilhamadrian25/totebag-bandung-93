@@ -80,7 +80,7 @@ const ImageContainer = styled.div`
   }
 `;
 
-const Description = styled.p`
+export const Description = styled.p`
   font-size: 1.8rem;
   opacity: 0.8;
   line-height: 1.6;
