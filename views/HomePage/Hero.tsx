@@ -14,19 +14,18 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <CustomOverTitle>Tunjukkan Gayamu, Mulai dari Tasmu</CustomOverTitle>
+        <Heading>Mudahkan hidup Anda dengan produk kami kami</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+          Kami percaya bahwa gaya terbaik adalah yang paling personal. Di sini, kamu bisa temukan berbagai totebag dengan desain unik, kreatif, dan pastinya penuh makna. Mulai dari gaya minimalis, retro, hingga custom dengan desainmu sendiri — kami siap jadi teman harianmu yang gak cuma keren, tapi juga ramah lingkungan.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+            Hubungi kami disini <span>&rarr;</span>
           </Button>
-          <NextLink href="#whitepaper" passHref>
+          <NextLink href="/catalog" passHref>
             <Button transparent>
-              Features <span>&rarr;</span>
+              Katalog <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>
