@@ -13,7 +13,7 @@ const TABS = [
     title: 'Ramah Lingkungan',
     description:
       '<p>Totebag terbuat dari bahan kain yang bisa digunakan berulang kali, membantu mengurangi penggunaan plastik sekali pakai dan menjaga kelestarian lingkungan.</p>',
-    imageUrl: '/images/totebag-eco.png',
+    imageUrl: '/feature-1.png',
     baseColor: '88,193,132',
     secondColor: '124,207,158',
   },
@@ -21,7 +21,7 @@ const TABS = [
     title: 'Tahan Lama & Kuat',
     description:
       '<p>Dibuat dari bahan canvas atau katun berkualitas tinggi yang tahan lama, totebag ini mampu membawa beban berat dan cocok untuk berbagai aktivitas.</p>',
-    imageUrl: '/images/totebag-strong.png',
+    imageUrl: '/feature-2.png',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
@@ -29,7 +29,7 @@ const TABS = [
     title: 'Desain Stylish & Bisa Custom',
     description:
       '<p>Tersedia dalam desain modern dan bisa dicetak sesuai selera. Ekspresikan gaya kamu melalui totebag yang unik dan penuh karakter!</p>',
-    imageUrl: '/images/totebag-style.png',
+    imageUrl: '/feature-3.png',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
@@ -76,8 +76,8 @@ export default function FeaturesGallery() {
   return (
     <FeaturesGalleryWrapper>
       <Content>
-        <OverTitle>features</OverTitle>
-        <SectionTitle>What are you signing in for?</SectionTitle>
+        <OverTitle>fitur</OverTitle>
+        <SectionTitle>Apa yang kamu inginkan?</SectionTitle>
       </Content>
       <GalleryWrapper>
         <TabsContainer>{tabsMarkup}</TabsContainer>
