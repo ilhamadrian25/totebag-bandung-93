@@ -70,7 +70,7 @@ export default function FeaturesPage() {
   return (
     <Page title="Tentang" description="">
       <Wrapper>
-        <SectionTitle>Informasi tentang Totebag Bandung 93</SectionTitle>
+        <SectionTitle>Totebag Bandung 93</SectionTitle>
         <Description>
           Totebag Bandung 93 adalah brand lokal yang mengusung konsep tote bag berkualitas tinggi dengan desain kekinian dan fungsional. Kami berdiri dengan misi menyediakan tas yang stylish, ramah lingkungan, dan tahan lama untuk mendukung gaya hidup aktif dan sadar lingkungan masyarakat modern. Setiap produk Totebag Bandung 93 dibuat dari bahan pilihan seperti kanvas dan katun yang kuat serta ramah lingkungan. Kami percaya bahwa fashion tidak hanya soal penampilan, tapi juga keberlanjutan. Oleh karena itu, kami mengedepankan proses produksi yang bertanggung jawab dan ramah alam. Berlokasi di kota Bandung, kami menggabungkan sentuhan seni lokal dengan tren desain global untuk menghadirkan tote bag yang unik dan personal. Totebag Bandung 93 cocok untuk kamu yang ingin tampil gaya sambil berkontribusi pada pelestarian lingkungan.
         </Description>
