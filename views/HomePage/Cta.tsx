@@ -12,7 +12,7 @@ export default function Cta() {
   return (
     <CtaWrapper>
       <Container>
-        <Stack>
+        {/* <Stack>
           <OverTitle>Lorem ipsum dolor sit amet</OverTitle>
           <SectionTitle>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</SectionTitle>
           <Description>
@@ -31,7 +31,7 @@ export default function Cta() {
               </OutlinedButton>
             </NextLink>
           </ButtonGroup>
-        </Stack>
+        </Stack> */}
       </Container>
     </CtaWrapper>
   );

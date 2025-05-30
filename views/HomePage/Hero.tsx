@@ -20,7 +20,7 @@ export default function Hero() {
           Kami percaya bahwa gaya terbaik adalah yang paling personal. Di sini, kamu bisa temukan berbagai totebag dengan desain unik, kreatif, dan pastinya penuh makna. Mulai dari gaya minimalis, retro, hingga custom dengan desainmu sendiri — kami siap jadi teman harianmu yang gak cuma keren, tapi juga ramah lingkungan.
         </Description>
         <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
+          <Button onClick={() => window.open('https://wa.link/oao7f6', '_blank')}>
             Hubungi kami disini <span>&rarr;</span>
           </Button>
           <NextLink href="/catalog" passHref>
