@@ -10,28 +10,28 @@ import { media } from 'utils/media';
 
 const TABS = [
   {
-    title: 'Find relevant media contacts - multiline title',
+    title: 'Ramah Lingkungan',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-3.png',
+      '<p>Totebag terbuat dari bahan kain yang bisa digunakan berulang kali, membantu mengurangi penggunaan plastik sekali pakai dan menjaga kelestarian lingkungan.</p>',
+    imageUrl: '/images/totebag-eco.png',
+    baseColor: '88,193,132',
+    secondColor: '124,207,158',
+  },
+  {
+    title: 'Tahan Lama & Kuat',
+    description:
+      '<p>Dibuat dari bahan canvas atau katun berkualitas tinggi yang tahan lama, totebag ini mampu membawa beban berat dan cocok untuk berbagai aktivitas.</p>',
+    imageUrl: '/images/totebag-strong.png',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
   {
-    title: 'Another amazing feature',
+    title: 'Desain Stylish & Bisa Custom',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-4.png',
+      '<p>Tersedia dalam desain modern dan bisa dicetak sesuai selera. Ekspresikan gaya kamu melalui totebag yang unik dan penuh karakter!</p>',
+    imageUrl: '/images/totebag-style.png',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
-  },
-  {
-    title: 'And yet... another truly fascinating feature',
-    description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-5.png',
-    baseColor: '88,193,132',
-    secondColor: '124,207,158',
   },
 ];
 
