@@ -125,28 +125,21 @@ const TabsContainer = styled.div`
 `;
 
 const ImageContainer = styled.div<{ isActive: boolean }>`
-  height: 500px;    
-  width: auto;
-  overflow: hidden;
-  position: relative;
-  overflow: hidden;
-  border-radius: 0.8rem;
   flex: ${(p) => (p.isActive ? '2' : '0')};
+  position: relative;
+  border-radius: 0.8rem;
   box-shadow: var(--shadow-md);
+  overflow: hidden;
 
   &:before {
-    display: block;
     content: '';
-    width: 100%;
+    display: block;
     padding-top: calc((9 / 16) * 100%);
   }
 
   & > div {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    top: 0; right: 0; bottom: 0; left: 0;
   }
 
   ${media('<=desktop')} {
