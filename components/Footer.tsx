@@ -57,7 +57,7 @@ export default function Footer() {
         </ListContainer>
         <BottomBar>
           <ShareBar>
-            <NextLink href="https://www.twitter.com/" passHref>
+            <NextLink href="https://www.instagram.com/totebagbandung93" passHref>
               <a>
                 <TwitterIcon size={50} round={true} />
               </a>
