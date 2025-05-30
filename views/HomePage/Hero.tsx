@@ -15,7 +15,7 @@ export default function Hero() {
     <HeroWrapper>
       <Contents>
         <CustomOverTitle>Tunjukkan Gayamu, Mulai dari Tasmu</CustomOverTitle>
-        <Heading>Mudahkan hidup Anda dengan produk kami kami</Heading>
+        <Heading>Totebag Bandung 93</Heading>
         <Description>
           Kami percaya bahwa gaya terbaik adalah yang paling personal. Di sini, kamu bisa temukan berbagai totebag dengan desain unik, kreatif, dan pastinya penuh makna. Mulai dari gaya minimalis, retro, hingga custom dengan desainmu sendiri — kami siap jadi teman harianmu yang gak cuma keren, tapi juga ramah lingkungan.
         </Description>
