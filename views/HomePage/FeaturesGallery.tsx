@@ -125,6 +125,9 @@ const TabsContainer = styled.div`
 `;
 
 const ImageContainer = styled.div<{ isActive: boolean }>`
+  height: 500px;    
+  width: auto;
+  overflow: hidden;
   position: relative;
   overflow: hidden;
   border-radius: 0.8rem;
