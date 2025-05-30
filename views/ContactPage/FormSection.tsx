@@ -53,26 +53,26 @@ export default function FormSection() {
         {hasErrored && <ErrorMessage>Couldn&apos;t send email. Please try again.</ErrorMessage>}
         <InputGroup>
           <InputStack>
-            {errors.name && <ErrorMessage>Name is required</ErrorMessage>}
-            <Input placeholder="Your Name" id="name" disabled={isDisabled} {...register('name', { required: true })} />
+            {errors.name && <ErrorMessage>Nama tidak boleh kosong</ErrorMessage>}
+            <Input placeholder="Nama" id="name" disabled={isDisabled} {...register('name', { required: true })} />
           </InputStack>
           <InputStack>
-            {errors.email && <ErrorMessage>Email is required</ErrorMessage>}
-            <Input placeholder="Your Email" id="email" disabled={isDisabled} {...register('email', { required: true })} />
+            {errors.email && <ErrorMessage>Email tidak boleh kosong</ErrorMessage>}
+            <Input placeholder="Email" id="email" disabled={isDisabled} {...register('email', { required: true })} />
           </InputStack>
         </InputGroup>
         <InputStack>
-          {errors.description && <ErrorMessage>Description is required</ErrorMessage>}
+          {errors.description && <ErrorMessage>Deskripsi tidak boleh kosong</ErrorMessage>}
           <Textarea
             as="textarea"
-            placeholder="Enter Your Message..."
+            placeholder="Masukan pesan..."
             id="description"
             disabled={isDisabled}
             {...register('description', { required: true })}
           />
         </InputStack>
         <Button as="button" type="submit" disabled={isSubmitDisabled}>
-          Send Message
+          Kirim Pesan
         </Button>
       </Form>
     </Wrapper>

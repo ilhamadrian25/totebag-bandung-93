@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export default function InformationSection() {
   return (
     <Wrapper>
-      <h3>Contact Info</h3>
+      <h3>Informasi Kontak</h3>
       <p>
         <span>Email:</span> info@totebag-bdg-93.com
       </p>
