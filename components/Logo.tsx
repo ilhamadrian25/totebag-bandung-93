@@ -22,7 +22,7 @@ export default function Logo({ ...rest }) {
   return (
     <LogoWrapper {...rest}>
       <LogoImage src="/logo.png" alt="Logo Totebag Bandung 93" />
-      <LogoText>Totebag Bandung 93</LogoText>
+      {/* <LogoText>Totebag Bandung 93</LogoText> */}
     </LogoWrapper>
   );
 }
